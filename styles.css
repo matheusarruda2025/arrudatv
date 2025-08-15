@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #eee;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #222;
+  height: 100vh;
+  padding: 20px;
+}
+
+.topmenu {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.topmenu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu li {
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 20px;
+  flex-grow: 1;
+}
